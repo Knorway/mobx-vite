@@ -1,0 +1,20 @@
+{
+	"name": "vite-project",
+	"private": true,
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"watch-style": "npx tailwindcss -i ./styles/styles.css -o ./dist/styles/index.css --watch",
+		"watch": "yarn build --watch",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@tailwindcss/typography": "^0.5.2",
+		"typescript": "^4.5.4",
+		"vite": "^2.9.0"
+	},
+	"dependencies": {
+		"tailwindcss": "^3.0.23"
+	}
+}
